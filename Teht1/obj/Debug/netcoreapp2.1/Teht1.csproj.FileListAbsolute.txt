@@ -1,0 +1,11 @@
+/Users/haell/Metropolia/Backu Endu/Teht1/bin/Debug/netcoreapp2.1/Teht1.deps.json
+/Users/haell/Metropolia/Backu Endu/Teht1/bin/Debug/netcoreapp2.1/Teht1.runtimeconfig.json
+/Users/haell/Metropolia/Backu Endu/Teht1/bin/Debug/netcoreapp2.1/Teht1.runtimeconfig.dev.json
+/Users/haell/Metropolia/Backu Endu/Teht1/bin/Debug/netcoreapp2.1/Teht1.dll
+/Users/haell/Metropolia/Backu Endu/Teht1/bin/Debug/netcoreapp2.1/Teht1.pdb
+/Users/haell/Metropolia/Backu Endu/Teht1/obj/Debug/netcoreapp2.1/Teht1.csprojAssemblyReference.cache
+/Users/haell/Metropolia/Backu Endu/Teht1/obj/Debug/netcoreapp2.1/Teht1.csproj.CoreCompileInputs.cache
+/Users/haell/Metropolia/Backu Endu/Teht1/obj/Debug/netcoreapp2.1/Teht1.AssemblyInfoInputs.cache
+/Users/haell/Metropolia/Backu Endu/Teht1/obj/Debug/netcoreapp2.1/Teht1.AssemblyInfo.cs
+/Users/haell/Metropolia/Backu Endu/Teht1/obj/Debug/netcoreapp2.1/Teht1.dll
+/Users/haell/Metropolia/Backu Endu/Teht1/obj/Debug/netcoreapp2.1/Teht1.pdb
