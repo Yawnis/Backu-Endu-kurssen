@@ -1,0 +1,14 @@
+/Users/haell/Metropolia/Backu Endu/Teht2/bin/Debug/netcoreapp2.1/Teht2.deps.json
+/Users/haell/Metropolia/Backu Endu/Teht2/bin/Debug/netcoreapp2.1/Teht2.runtimeconfig.json
+/Users/haell/Metropolia/Backu Endu/Teht2/bin/Debug/netcoreapp2.1/Teht2.runtimeconfig.dev.json
+/Users/haell/Metropolia/Backu Endu/Teht2/bin/Debug/netcoreapp2.1/Teht2.dll
+/Users/haell/Metropolia/Backu Endu/Teht2/bin/Debug/netcoreapp2.1/Teht2.pdb
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.csprojAssemblyReference.cache
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.csproj.CoreCompileInputs.cache
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.RazorAssemblyInfo.cache
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.RazorAssemblyInfo.cs
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.AssemblyInfoInputs.cache
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.AssemblyInfo.cs
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.RazorTargetAssemblyInfo.cache
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.dll
+/Users/haell/Metropolia/Backu Endu/Teht2/obj/Debug/netcoreapp2.1/Teht2.pdb
