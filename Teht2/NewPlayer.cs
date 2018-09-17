@@ -1,16 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Teht2
+
 {
     public class NewPlayer
     {
         public string Name { get; set; }
-
-        public NewPlayer(string playerName) {
-            Name = playerName;
-        }
-
-        public static implicit operator NewPlayer(string player) {
-            return new NewPlayer(player);
+        [Range(1, 99)]
+        public int Level { get; set; }
         }
     }
-
-}

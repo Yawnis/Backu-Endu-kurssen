@@ -42,7 +42,7 @@ namespace Teht2
         [HttpDelete("{id:Guid}")]
         public Task<Player> Delete(Guid id)
         {
-            return _processor.Delete(id);
+            return _processor.Delete(id);   
         }
     }
 }

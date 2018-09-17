@@ -25,9 +25,9 @@ namespace Teht2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
             services.AddSingleton<IRepository, InMemoryRepository>();
             services.AddSingleton<PlayersProcessor>();
+            services.AddSingleton<ItemsProcessor>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -40,7 +40,6 @@ namespace Teht2
             {
                 app.UseHsts();
             }
-
             app.UseHttpsRedirection();
             app.UseMvc();
         }
