@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Assignment_2
+namespace Teht2
 {
     [Route("/api/players/{playerId:Guid}/items")]
     [ApiController]

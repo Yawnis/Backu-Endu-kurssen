@@ -35,6 +35,7 @@ namespace Teht2
             // set other values for new item
             newItem.Id = Guid.NewGuid();
             newItem.CreationTime = item.CreationDate;
+            newItem.Type = item.Type;
             return _repository.CreateItem(playerid, newItem);
         }
 

@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/haell/Metropolia/Backu Endu/Teht2/Teht2.csproj",
+      "projectUniqueName": "/Users/haell/Metropolia/Backu Endu/Teht3/Teht2.csproj",
       "projectName": "Teht2",
-      "projectPath": "/Users/haell/Metropolia/Backu Endu/Teht2/Teht2.csproj",
+      "projectPath": "/Users/haell/Metropolia/Backu Endu/Teht3/Teht2.csproj",
       "packagesPath": "/Users/haell/.nuget/packages/",
-      "outputPath": "/Users/haell/Metropolia/Backu Endu/Teht2/obj/",
+      "outputPath": "/Users/haell/Metropolia/Backu Endu/Teht3/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

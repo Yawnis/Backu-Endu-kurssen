@@ -1,6 +1,6 @@
 using System;
 
-namespace Assignment_2
+namespace Teht2
 {
     public class PlayerMiesmiesException : Exception
     {
