@@ -18,6 +18,16 @@ namespace Teht2
             return _repository.GetPlayer(id);
         }
 
+                public Task<Player> GetName(string name)
+        {
+            return _repository.GetPlayerByName(name);
+        }
+
+        public Task<Player[]> GetTag(string tag)
+        {
+            return _repository.GetPlayerByTag(tag);
+        }
+
         public Task<Player[]> GetAll()
         {
             return _repository.GetAllPlayers();
@@ -31,6 +41,7 @@ namespace Teht2
             newPlayer.CreationTime = System.DateTime.Now;
             newPlayer.Level = player.Level;
             newPlayer.items = new List<Item>();
+            newPlayer.Tag=player.Tag;
             return _repository.CreatePlayer(newPlayer);
         }
 
@@ -38,6 +49,11 @@ namespace Teht2
         {
             return _repository.ModifyPlayer(id, player);
         }
+
+        public Task<Player> UpdatedPlayerName(Guid id, UpdatedPlayerName player)
+        {
+            return _repository.UpdatedPlayerName(id, player);
+        }        
 
         public Task<Player> Delete(Guid id)
         {

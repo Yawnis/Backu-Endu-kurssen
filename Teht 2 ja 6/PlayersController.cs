@@ -21,6 +21,18 @@ namespace Teht2
             return _processor.Get(id);
         }
 
+        [HttpGet("{name}")]
+        public Task<Player> GetName(string name)
+        {
+            return _processor.GetName(name);
+        }
+
+        [HttpGet("tag/{tag}")]
+        public Task<Player[]> GetTag(string tag)
+        {
+            return _processor.GetTag(tag);
+        }
+
         [HttpGet]
         public Task<Player[]> GetAll()
         {
@@ -37,6 +49,12 @@ namespace Teht2
         public Task<Player> Modify(Guid id, [FromBody] ModifiedPlayer player)
         {
             return _processor.Modify(id, player);
+        }
+
+        [HttpPut("{id:Guid}/name")]
+        public Task<Player> UpdateName(Guid id, [FromBody] UpdatedPlayerName player)
+        {
+            return _processor.UpdatedPlayerName(id, player);
         }
 
         [HttpDelete("{id:Guid}")]

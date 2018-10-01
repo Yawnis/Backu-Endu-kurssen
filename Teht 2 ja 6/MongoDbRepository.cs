@@ -56,6 +56,14 @@ namespace Teht2
             return player2;
         }
 
+        public async Task<Player> UpdatedPlayerName(Guid id, UpdatedPlayerName player)
+        {
+            var filter = Builders<Player>.Filter.Eq("Id", id);
+            var update = Builders<Player>.Update.Set("Name", player.UpdatedName);
+            var player2 = await collection.FindOneAndUpdateAsync(filter, update);
+            return player2;
+        }
+
         public async Task<Item> CreateItem(Guid playerid, Item item)
         {
             var update = Builders<Player>.Update.AddToSet("items", item);
@@ -125,6 +133,22 @@ namespace Teht2
                     player.items.Remove(found);
             await collection.FindOneAndReplaceAsync(filter, player);
             return found;
+        }
+
+        public async Task<Player> GetPlayerByName(string name)
+        {
+            var filter = Builders<Player>.Filter.Eq("Name", name);
+            var cursor = await collection.FindAsync(filter);
+            Player player = cursor.Single();
+            return player;
+        }
+
+        public async Task<Player[]> GetPlayerByTag(string tag)
+        {
+            var filter = Builders<Player>.Filter.Eq("Tag", tag);
+            var cursor = await collection.FindAsync(filter);
+            Player[] player = cursor.ToList().ToArray();
+            return player;
         }
     }
 }
